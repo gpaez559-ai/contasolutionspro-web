@@ -11,7 +11,10 @@
 <meta property="og:url" content="https://contasolutionspro.com/">
 <meta property="og:type" content="website">
 <meta name="theme-color" content="#081A2C">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%230F2A44'/><text x='32' y='41' font-family='Arial' font-weight='bold' font-size='22' fill='%2313A89E' text-anchor='middle'>CSP</text></svg>">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="img/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<meta property="og:image" content="https://contasolutionspro.com/img/logo-icono.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300..900;1,14..32,300..700&display=swap" rel="stylesheet">
@@ -42,7 +45,8 @@ header{position:fixed;top:16px;left:0;right:0;z-index:50;transition:top .3s}
 .nav{max-width:1200px;margin:0 auto;padding:0 24px}
 .nav-in{display:flex;align-items:center;justify-content:space-between;height:62px;padding:0 10px 0 18px;border-radius:999px;background:rgba(8,26,44,.55);border:1px solid var(--borde-v);backdrop-filter:blur(14px) saturate(140%);-webkit-backdrop-filter:blur(14px) saturate(140%)}
 .logo{display:flex;align-items:center;gap:10px;color:#fff;font-weight:700;font-size:17px;letter-spacing:-.2px}
-.logo .m{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;background:linear-gradient(135deg,var(--verde),var(--azul-3));font-size:12px;font-weight:800;letter-spacing:.5px}
+.logo .m{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;background:var(--azul-2)}
+.logo .m img{width:28px;height:28px;display:block}
 .logo b{color:var(--verde-2);font-weight:700}
 .menu{display:flex;gap:4px;align-items:center}
 .menu a{padding:9px 14px;border-radius:999px;font-size:14.5px;color:var(--gris-2);font-weight:500;transition:color .2s,background .2s}
@@ -453,7 +457,7 @@ footer{background:var(--noche)}
 
 <header>
   <div class="nav"><div class="nav-in">
-    <a href="#inicio" class="logo"><span class="m">CSP</span><span class="txt">ContaSolutions <b>Pro</b></span></a>
+    <a href="#inicio" class="logo"><span class="m"><img src="img/logo-simbolo-blanco.svg" alt="" width="28" height="28"></span><span class="txt">ContaSolutions <b>Pro</b></span></a>
     <nav class="menu">
       <a href="#servicios">Servicios</a>
       <a href="#clientes">Para quién</a>
